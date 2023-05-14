@@ -1,0 +1,15 @@
+body {
+	margin: 0;
+	height: 100vh;
+}
+
+#root {
+	min-height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+#main,
+#nav {
+	min-height: calc(0.5 * 100vh);
+}
